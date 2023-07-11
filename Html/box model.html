@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/box model.css">
+    <title>Box Model</title>
+</head>
+<body>
+    <!-- main container -->
+    <div class="main-container">
+        <div class="heading-container">
+            <h1 class="heading">Registration Form</h1>
+        </div>
+    </div>
+
+    <!-- form container -->
+    <div class="form-container">
+        <form action="">
+
+            <!-- fname container  -->
+            <div class="form-control">
+                <label for="fname">First Name :</label>
+                <input type="text" name="fname" id="fname" placeholder="Enter Your First Name">
+            </div>
+
+            <div class="form">
+
+            <!-- lname container -->
+            <div class="form-control">
+                <label for="lname">Last Name :</label>
+                <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name">
+            </div>
+
+            <!-- gender container -->
+            <div class="form-control">
+                <p>Gender</p>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender">
+
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="gender">
+
+                <label for="gender">Other</label>
+                <input type="radio" name="gender" id="gender">
+            </div>
+
+            <!-- dob container -->
+            <div class="form-control">
+                <label for="dob">Date Of Birth :</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+
+            <!-- language container -->
+            <div class="form-control">
+                <p>Languages</p>
+                <label for="lang">English</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">Hindi</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">Marathi</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">Tamil</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">Urdu</label>
+                <input type="checkbox" name="lang" id="lang">
+            </div>
+
+            <!-- contact container -->
+            <div class="form-control">
+                <p></p>
+                <label for="contact">Mobile No :</label>
+                <input type="tel" name="contact" id="contact" maxlength="10" placeholder="Enter Your 10 Digit Number" pattern="[6-9]{1}[0-9]{9}">
+            </div>
+
+            <!-- city container -->
+            <div class="form-control">
+                <p>City</p>
+                <select name="City" id="City">
+                    <option value="select">Select Type</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Thane">Thane</option>
+                    <option value="Kalyan">Kalyan</option>
+                    <option value="Kanaka">Kanaka</option>
+                    <option value="Cst">Cst</option>
+                </select>
+            </div>
+
+            <!-- email container -->
+            <div class="form-control">
+                <p></p>
+                <label for="mail">Email id :</label>
+                <input type="email" name="mail" id="mail" placeholder="Example123@gmail.com" pattern="[a-zA-Z0-9]+@+[\w]+\.\[a-zA-Z]{2,3}">
+            </div>
+
+            <!-- programming lang container -->
+            <div class="form-control">
+                <p>Programming Languages</p>
+                <label for="lang">C :</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">C++ :</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">C# :</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">Html :</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">Css :</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">JavaScript :</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">Java :</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="lang">Python :</label>
+                <input type="checkbox" name="lang" id="lang">
+
+                <label for="db">SQL :</label>
+                <input type="checkbox" name="db" id="db">
+
+                <label for="db">Mongodb :</label>
+                <input type="checkbox" name="db" id="db">
+            </div>
+
+            <!-- upload container -->
+            <div class="form-control">
+                <p>Upload File</p>
+                <input type="file" name="file" id="file">
+            </div>
+
+            <!-- password container -->
+            <div class="form-control">
+                <p></p>
+                <label for="pass1">Enter Password :</label>
+                <input type="password" name="pass1" id="pass1" placeholder="Enter Initial Password">
+            </div>
+
+            <div class="form-control">
+                <label for="pass2">Confirm Password :</label>
+                <input type="password" name="pass2" id="pass2" placeholder="Enter Confirm Password">
+            </div>
+
+            <!-- button container -->
+            <div class="form-control">
+                <p></p>
+                <button type="submit" class="submit">Submit</button>
+                <input type="reset" value="Reset" class="reset">
+            </div>
+
+        </div>
+        </form>
+        <!-- Copyright Year in Footer -->
+        <p style="text-align: center;">Copyright & copy <span id="year"></span>@Box Model.com</p>
+    </div>
+    
+    <!-- get current year -->
+    <script>
+        const year = document.getElementById("year");
+        year.textContent = new Date().getFullYear();
+    </script>
+    
+</body>
+</html>
+

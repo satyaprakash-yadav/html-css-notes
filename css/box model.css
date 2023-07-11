@@ -1,0 +1,48 @@
+body{
+    background-color: azure;
+}
+
+.heading{
+    text-align: center;
+    border: 2px solid lightslategray;
+    background-color: lightgray;
+    /* text-shadow: 3px 3px 3px rgb(140, 140, 236); */
+    color: rgb(7, 80, 103);
+    border-radius: 5px;
+}
+
+.form-container{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: lavenderblush;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+input[type="text"],input[type="email"],input[type="password"]{
+    display: block;
+    width: 30%;
+    height: 20px;
+    font-size: small;
+    background-color: aliceblue;
+}
+
+.submit{
+    background-color: green;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.reset{
+    background-color: rgb(8, 171, 236);
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+}

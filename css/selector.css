@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(189, 221, 250);
+}
+
+/* class selector */
+.box-1{
+    background-color: antiquewhite;
+    border: 2px solid rgb(34, 45, 56);
+}
+.heading-1{
+    color: rgb(62, 90, 91);
+    text-align: center;
+}
+
+
+/* id selector */
+#box-2{
+    background-color: azure;
+    border: 2px solid rgb(84, 2, 63);
+    margin-top: 10px;
+}
+#heading-2{
+    color: rgb(99, 80, 54);
+    text-align: end;
+}
+
+    

@@ -1,0 +1,34 @@
+body{
+    background-color: beige;
+}
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 300px;
+    font-size: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(50, 45, 189);
+}
+
+.one{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px;
+    color: brown;
+}
+
+.two{
+    text-decoration: underline;
+    text-decoration-color: rgb(27, 18, 35);
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.three{
+    text-align: justify;
+    color: rgb(4, 79, 4);
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: azure;
+}
+.heading-1{
+    background-color: antiquewhite;
+    color: rgb(61, 59, 59);
+}
+
+.heading-2{
+    background-color: #dbbedb;
+    color: #456d0d;
+}
+
+.heading-3{
+    background-color: rgb(190, 221, 250);
+    color: blue;
+}
+
+.heading-4{
+    background-color: rgb(160, 225, 246);
+    color: rgb(244, 10, 190);
+}

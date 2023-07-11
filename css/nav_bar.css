@@ -1,0 +1,41 @@
+body{
+    background-color: azure;
+}
+
+.nav-bar{
+    background-color: lightgray;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-bar ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    padding: 16px;
+}
+
+.nav-bar ul li a:hover{
+    background-color: grey;
+}
+
+.form{
+    float: right;
+}
+
+.form button{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-bar select{
+    margin-left: 50px;
+}

@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+div{
+    background-color: lightgoldenrodyellow;
+    border: 1.5px solid blueviolet;
+}
+.heading{
+    color: cadetblue;
+    text-align: center;
+}

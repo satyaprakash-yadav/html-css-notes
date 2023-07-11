@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>FORM PAGE</title>
+</head>
+<body style="background-color: rgb(199, 232, 243);">
+
+    <!-- heading container -->
+    <div>
+        <div class="heading">
+            <h1 style="text-align: center;text-decoration: underline;color: rgb(7, 84, 112);">HTML FORM</h1>
+        </div>
+    </div>
+    
+    <!-- form container -->
+    <div class="form">
+        <form action="">
+            
+            <!-- fname container -->
+            <div class="widgets">
+                <label for="fname">First Name :</label>
+                <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+            </div>
+
+            <!-- lname container -->
+            <div class="widgets" style="padding: 5px;">
+            <label for="lname">Last Name :</label>
+            <input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
+        </div>
+
+        <!-- contact container -->
+        <div class="widgets" style="padding: 0px;">
+            <label for="contact">Phone No :</label>
+            <input type="text" name="contact" id="contact" placeholder="Enter your mobile number" required>
+        </div>
+
+        <!-- email container -->
+        <div class="widgets" style="padding: 4px;">
+            <label for="email">Email Id :</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+        </div>
+
+        <!-- gender container -->
+        <div class="widgets">
+            <p>Gender</p>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="male">
+
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+
+        <!-- language container -->
+        <div class="widgets">
+            <p>How many languages do you know?</p>
+             <label for="lang">Hindi</label>
+             <input type="checkbox" name="hindi" id="hindi">
+
+             <label for="lang">Marathi</label>
+             <input type="checkbox" name="marathi" id="marathi">
+
+             <label for="lang">English</label>
+             <input type="checkbox" name="english" id="english">
+        </div>
+
+        <!-- upload container -->
+        <div class="widgets">
+            <p>Upload File</p>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <!-- address container -->
+        <div class="widgets" style="padding: 3px;">
+            <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+        </div>
+
+        <!-- submit container -->
+        <div class="widgets">
+            <button type="submit">Submit</button>
+            <input type="reset" value="Reset">
+        </div>
+        </form>
+    </div>
+</body>
+</html>
